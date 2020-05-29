@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>User GitHub</title>
+</head>
+<body>
+    <header>
+        <img src="https://octodex.github.com/images/carlostocat.gif" width="150px">
+        <h1>Get a github user</h1>
+    </header>
+    <section>
+        <div id="input">
+            <input type="text" id="user_name" placeholder="Coloque aqui o perfil">
+            <button id="btn_get" onclick="github()">GET</button>
+        </div>
+        <div id="output">
+            <h1>INFORMAÇÕES DO PERFIL APARECEM AQUI</h1>
+            <img width="18%" >
+            <br><a id="perfil"></a>
+            <p id="seguidores"></p>
+            <p id="bio"></p>
+            <span id="blog"><span id="blog-title"></span> <a id="link-blog"></a></span>
+            <p id="location"></p>
+        </div>
+    </section>
+    <footer>
+            <span>&copy;Francisco Cajlon</span><br>
+            <span>
+                <a href="https://www.instagram.com/cajlonbatista/?hl=pt-br" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111463.svg" width="20px"></a>
+            </span>
+            <span>
+                <a href="https://www.facebook.com/franciscocajlon.jhonanthanmourabatista" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733547.svg" width="20px"></a>
+            </span>
+            <span>
+                <a href="https://github.com/cajlonbatista" target="_blank"><img src="https://image.flaticon.com/icons/svg/2111/2111425.svg" width="22px"></a>
+            </span>
+    </footer> 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
